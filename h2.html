@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hehe</title>
+  <style>
+    body {
+      background-image: url(Img/—Pngtree—tropical\ beach\ with\ coconut\ vector_3548391.png); /* Ganti dengan URL gambar pantai */
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    
+    .heart-container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      overflow: hidden;
+    }
+    
+    .heart {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100px;
+      height: 100px;
+      transform: translate(-50%, -50%);
+      animation: float 1s ease-in-out infinite;
+    }
+    
+    .encouragement {
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-size: 24px;
+      margin-top: 30px;
+    }
+    
+    @keyframes float {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Jangan lupak sarapan yaang</h1>
+  <div class="heart-container">
+    <img class="heart" src="Img/pngwing.com.png" alt="Hati" /> <!-- Ganti dengan URL gambar hati -->
+  </div>
+  <p class="encouragement">Semangat yooo!</p>
+</body>
+</html>
